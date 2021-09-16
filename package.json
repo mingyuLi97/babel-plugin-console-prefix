@@ -1,0 +1,35 @@
+{
+  "name": "babel-plugin-console-prefix",
+  "version": "1.0.0",
+  "description": "babel-loader 的插件，给项目的 console 增加前缀",
+  "main": "lib/babel-plugin-console-prefix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./__tests__/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/types": "^7.15.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.46.0",
+    "webpack-command": "^0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingyuLi97/babel-plugin-console-prefix.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "babel-plugin",
+    "console-prefix",
+    "console"
+  ],
+  "author": "limy97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mingyuLi97/babel-plugin-console-prefix/issues"
+  },
+  "homepage": "https://github.com/mingyuLi97/babel-plugin-console-prefix#readme"
+}
